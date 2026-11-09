@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kadeřnictví Žaneta Konečná | Ostrava</title>
+  <meta name="description" content="Dámské, pánské a dětské kadeřnictví Žanety Konečné. Viktora Huga 597/7, Ostrava.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=DM+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sdílené kresby: logo, nůžky a pramen v prázdné pozici kola -->
+  <svg width="0" height="0" class="sprite" aria-hidden="true">
+    <defs>
+    <mask id="zk-stem" maskUnits="userSpaceOnUse" x="0" y="0" width="290" height="180">
+      <rect width="290" height="180" fill="white"/>
+      <g fill="black" stroke="black" stroke-width="7"><path d="M280 38C258 44 230 66 204 96L170 134 174 138 204 128 228 105C246 88 266 62 280 38Z"/><path d="M280 172C258 166 230 144 204 114L170 76 174 72 204 82 228 105C246 122 266 148 280 172Z"/></g>
+      <g fill="none" stroke="black" stroke-width="10">
+        <ellipse cx="150" cy="58" rx="30" ry="12" transform="rotate(38 150 58)"/>
+        <ellipse cx="150" cy="152" rx="30" ry="12" transform="rotate(-38 150 152)"/>
+      </g>
+    </mask>
+    <mask id="zk-cross" maskUnits="userSpaceOnUse" x="0" y="0" width="290" height="180">
+      <rect width="290" height="180" fill="white"/>
+      <path fill="none" stroke="black" stroke-width="3.5" d="M280 38C258 44 230 66 204 96L170 134 174 138 204 128 228 105C246 88 266 62 280 38Z"/>
+    </mask>
+    <mask id="zk-pin" maskUnits="userSpaceOnUse" x="0" y="0" width="290" height="180">
+      <rect width="290" height="180" fill="white"/>
+      <circle cx="214" cy="105" r="4.5" fill="black"/>
+    </mask>
+    </defs>
+    <symbol id="scissors" viewBox="120 30 170 150">
+      <g mask="url(#zk-pin)" fill="currentColor">
+        <path mask="url(#zk-cross)" d="M280 172C258 166 230 144 204 114L170 76 174 72 204 82 228 105C246 122 266 148 280 172Z"/>
+        <path d="M280 38C258 44 230 66 204 96L170 134 174 138 204 128 228 105C246 88 266 62 280 38Z"/>
+      </g>
+      <g fill="none" stroke="currentColor" stroke-width="4">
+        <ellipse cx="150" cy="58" rx="30" ry="12" transform="rotate(38 150 58)"/>
+        <ellipse cx="150" cy="152" rx="30" ry="12" transform="rotate(-38 150 152)"/>
+      </g>
+    </symbol>
+    <symbol id="logo" viewBox="0 0 290 180">
+      <g fill="currentColor">
+        <path d="M36 6h8l15 14 15-14h9L59 32Z"/>
+        <path d="M14 40H106L44 160 108 164V170H8L72 50 14 46Z"/>
+        <rect x="160" y="40" width="28" height="130" mask="url(#zk-stem)"/>
+      </g>
+      <g mask="url(#zk-pin)" fill="currentColor">
+        <path mask="url(#zk-cross)" d="M280 172C258 166 230 144 204 114L170 76 174 72 204 82 228 105C246 122 266 148 280 172Z"/>
+        <path d="M280 38C258 44 230 66 204 96L170 134 174 138 204 128 228 105C246 88 266 62 280 38Z"/>
+      </g>
+      <g fill="none" stroke="currentColor" stroke-width="4">
+        <ellipse cx="150" cy="58" rx="30" ry="12" transform="rotate(38 150 58)"/>
+        <ellipse cx="150" cy="152" rx="30" ry="12" transform="rotate(-38 150 152)"/>
+      </g>
+    </symbol>
+    <symbol id="strand" viewBox="0 0 100 100">
+      <g fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round">
+        <path d="M28 0C42 26 18 48 34 100"/>
+        <path d="M38 0C52 26 28 48 44 100"/>
+        <path d="M48 0C62 26 38 48 54 100"/>
+        <path d="M58 0C72 26 48 48 64 100"/>
+        <path d="M68 0C82 26 58 48 74 100"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <a class="skip" href="#obsah">Přeskočit na obsah</a>
+
+  <header class="bar">
+    <a class="bar__logo" href="#obsah" aria-label="Kadeřnictví Žaneta Konečná, na začátek stránky">
+      <svg aria-hidden="true"><use href="#logo"/></svg>
+    </a>
+    <button class="bar__toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Otevřít menu">
+      <span></span><span></span>
+    </button>
+    <nav class="bar__nav" id="menu" aria-label="Hlavní menu">
+      <a href="#tvorba">Tvorba</a>
+      <a href="#pro-koho">Pro koho</a>
+      <a href="#cenik">Ceník</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main id="obsah">
+    <section class="hero">
+      <div class="hero__text">
+        <div class="reveal">
+        <p class="label">Kadeřnictví · Ostrava</p>
+        <h1>Žaneta<br>Konečná</h1>
+        <p class="hero__lede">Dámské, pánské i&nbsp;dětské kadeřnictví na adrese Viktora Huga&nbsp;597/7.</p>
+        <div class="hero__actions">
+          <a class="btn" href="#kontakt">Objednat se</a>
+          <a class="btn btn--ghost" href="#cenik">Ceník</a>
+        </div>
+        </div>
+      </div>
+
+      <div class="hero__panel" id="tvorba">
+        <div class="wheel" role="group" aria-roledescription="kolo fotek" aria-label="Tvorba Žanety Konečné" tabindex="0">
+          <ul class="wheel__ring">
+            <li class="slot"><button type="button" aria-label="Fotka 1"><svg aria-hidden="true"><use href="#strand"/></svg><span>Fotka 01</span><img src="foto-1.jpg" alt="Účes z tvorby Žanety Konečné, fotka 1" draggable="false" onerror="this.remove()"></button></li>
+            <li class="slot"><button type="button" aria-label="Fotka 2"><svg aria-hidden="true"><use href="#strand"/></svg><span>Fotka 02</span><img src="foto-2.jpg" alt="Účes z tvorby Žanety Konečné, fotka 2" draggable="false" onerror="this.remove()"></button></li>
+            <li class="slot"><button type="button" aria-label="Fotka 3"><svg aria-hidden="true"><use href="#strand"/></svg><span>Fotka 03</span><img src="foto-3.jpg" alt="Účes z tvorby Žanety Konečné, fotka 3" draggable="false" onerror="this.remove()"></button></li>
+            <li class="slot"><button type="button" aria-label="Fotka 4"><svg aria-hidden="true"><use href="#strand"/></svg><span>Fotka 04</span><img src="foto-4.jpg" alt="Účes z tvorby Žanety Konečné, fotka 4" draggable="false" onerror="this.remove()"></button></li>
+            <li class="slot"><button type="button" aria-label="Fotka 5"><svg aria-hidden="true"><use href="#strand"/></svg><span>Fotka 05</span><img src="foto-5.jpg" alt="Účes z tvorby Žanety Konečné, fotka 5" draggable="false" onerror="this.remove()"></button></li>
+            <li class="slot"><button type="button" aria-label="Fotka 6"><svg aria-hidden="true"><use href="#strand"/></svg><span>Fotka 06</span><img src="foto-6.jpg" alt="Účes z tvorby Žanety Konečné, fotka 6" draggable="false" onerror="this.remove()"></button></li>
+            <li class="slot"><button type="button" aria-label="Fotka 7"><svg aria-hidden="true"><use href="#strand"/></svg><span>Fotka 07</span><img src="foto-7.jpg" alt="Účes z tvorby Žanety Konečné, fotka 7" draggable="false" onerror="this.remove()"></button></li>
+            <li class="slot"><button type="button" aria-label="Fotka 8"><svg aria-hidden="true"><use href="#strand"/></svg><span>Fotka 08</span><img src="foto-8.jpg" alt="Účes z tvorby Žanety Konečné, fotka 8" draggable="false" onerror="this.remove()"></button></li>
+          </ul>
+          <div class="wheel__hub">
+            <p class="label">Tvorba</p>
+            <p class="wheel__count" aria-live="polite"><span data-current>01</span> / 08</p>
+            <div class="wheel__controls">
+              <button type="button" data-prev aria-label="Předchozí fotka">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+              </button>
+              <button type="button" data-pause aria-pressed="false" aria-label="Zastavit otáčení">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path data-icon d="M9 5v14M15 5v14"/></svg>
+              </button>
+              <button type="button" data-next aria-label="Další fotka">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="who" id="pro-koho">
+      <div class="who__list">
+        <p class="label reveal">Pro koho</p>
+        <ol>
+          <li class="reveal"><span class="label">01</span><strong>Dámské</strong></li>
+          <li class="reveal"><span class="label">02</span><strong>Pánské</strong></li>
+          <li class="reveal"><span class="label">03</span><strong>Dětské</strong></li>
+        </ol>
+      </div>
+      <svg class="who__art" viewBox="-60 0 420 610" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+          <path d="M40 0C70 150 10 300 44 508"/>
+          <path d="M70 0C100 150 40 300 74 482"/>
+          <path d="M100 0C130 150 70 300 104 456"/>
+          <path d="M130 0C160 150 100 300 134 430"/>
+          <path d="M160 0C190 150 130 300 164 404"/>
+          <path d="M190 0C220 150 160 300 194 378"/>
+          <path d="M220 0C250 150 190 300 224 352"/>
+          <path d="M250 0C280 150 220 280 254 326"/>
+          <path d="M280 0C310 130 250 240 284 300"/>
+          <path d="M310 0C340 110 280 210 314 274"/>
+          <path d="M340 0C370 90 310 180 344 248"/>
+        </g>
+        <use href="#scissors" width="105" height="93" transform="translate(20 528) rotate(-41) translate(-58.3 -46.5)"/>
+      </svg>
+    </section>
+
+    <section class="prices" id="cenik">
+      <div class="prices__head reveal">
+        <h2>Ceník</h2>
+        <p>Ceny se odvíjí od délky a&nbsp;hustoty vlasů a&nbsp;náročnosti práce. Ceník je orientační, finální cena se stanoví po konzultaci před vykonáním služby.</p>
+      </div>
+
+      <div class="prices__groups">
+        <table>
+          <caption>Dámské</caption>
+          <thead><tr><th scope="col">Vlasy</th><th scope="col">Střih</th><th scope="col">Komplet</th><th scope="col">Foukaná</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Krátké</th><td>270&nbsp;Kč</td><td>310&nbsp;Kč</td><td>250&nbsp;Kč</td></tr>
+            <tr><th scope="row">Polodlouhé</th><td>310&nbsp;Kč</td><td>380&nbsp;Kč</td><td>290&nbsp;Kč</td></tr>
+            <tr><th scope="row">Dlouhé</th><td>350&nbsp;Kč</td><td>530&nbsp;Kč</td><td>380&nbsp;Kč</td></tr>
+          </tbody>
+        </table>
+
+        <table>
+          <caption>Pánské</caption>
+          <tbody>
+            <tr><th scope="row">Klasický střih</th><td>250&nbsp;Kč</td></tr>
+            <tr><th scope="row">Moderní / trendy střih</th><td>400&nbsp;Kč</td></tr>
+            <tr><th scope="row">Úprava vousů, ornamenty</th><td>100&nbsp;Kč</td></tr>
+          </tbody>
+        </table>
+
+        <table>
+          <caption>Dětské</caption>
+          <tbody>
+            <tr><th scope="row">Klasický (do 6 let)</th><td>200&nbsp;Kč</td></tr>
+          </tbody>
+        </table>
+
+        <table>
+          <caption>Barvení</caption>
+          <thead><tr><th scope="col">Vlasy</th><th scope="col">Odrost</th><th scope="col">Délky</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Krátké</th><td>830&nbsp;Kč</td><td>830&nbsp;Kč</td></tr>
+            <tr><th scope="row">Polodlouhé</th><td>830&nbsp;Kč</td><td>870&nbsp;Kč</td></tr>
+            <tr><th scope="row">Dlouhé</th><td>830&nbsp;Kč</td><td>1090&nbsp;Kč</td></tr>
+          </tbody>
+        </table>
+
+        <table>
+          <caption>Melír, zesvětlování</caption>
+          <thead><tr><th scope="col">Vlasy</th><th scope="col">Cena</th><th scope="col">+ tónování</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Krátké</th><td>850&nbsp;Kč</td><td>960&nbsp;Kč</td></tr>
+            <tr><th scope="row">Polodlouhé</th><td>1140&nbsp;Kč</td><td>1340&nbsp;Kč</td></tr>
+            <tr><th scope="row">Dlouhé</th><td>1240&nbsp;Kč</td><td>1460&nbsp;Kč</td></tr>
+          </tbody>
+        </table>
+
+        <table>
+          <caption>Trvalá</caption>
+          <tbody>
+            <tr><th scope="row">Krátké vlasy</th><td>750&nbsp;Kč</td></tr>
+            <tr><th scope="row">Polodlouhé vlasy</th><td>860&nbsp;Kč</td></tr>
+            <tr><th scope="row">Dlouhé vlasy</th><td>910&nbsp;Kč</td></tr>
+          </tbody>
+        </table>
+
+        <table>
+          <caption>Ostatní služby</caption>
+          <tbody>
+            <tr><th scope="row">Mytí a sušení vlasů</th><td>100&nbsp;Kč</td></tr>
+            <tr><th scope="row">Regenerace vlasů</th><td>od&nbsp;1000&nbsp;Kč</td></tr>
+            <tr><th scope="row">Barvení obočí</th><td>70&nbsp;Kč</td></tr>
+            <tr><th scope="row">Svatební účes</th><td>2500&nbsp;Kč + doprava</td></tr>
+            <tr><th scope="row">Svatební účes, zkouška</th><td>od&nbsp;700&nbsp;Kč</td></tr>
+            <tr><th scope="row">Společenský účes</th><td>od&nbsp;550&nbsp;Kč</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="prices__note">Platba v&nbsp;hotovosti nebo QR kódem. Nepřijímáme platební karty a&nbsp;cizí měny. Ceník je platný od&nbsp;1.&nbsp;7.&nbsp;2026. Nejsme plátci DPH.</p>
+    </section>
+
+    <section class="contact" id="kontakt">
+      <div class="reveal">
+        <h2>Domluvme se</h2>
+        <p class="contact__lead">Zavolejte a&nbsp;domluvíme termín.</p>
+      </div>
+      <dl class="contact__list reveal">
+        <div><dt class="label">Telefon</dt><dd><a class="contact__phone" href="tel:+420737313206">737&nbsp;313&nbsp;206</a></dd></div>
+        <div><dt class="label">E-mail</dt><dd><a href="mailto:zanetavrbecka@seznam.cz">zanetavrbecka@seznam.cz</a></dd></div>
+        <div><dt class="label">Adresa</dt><dd><a href="https://www.google.com/maps/search/?api=1&amp;query=Viktora+Huga+597%2F7%2C+Ostrava" target="_blank" rel="noopener">Viktora Huga 597/7, Ostrava</a></dd></div>
+        <div><dt class="label">Sledujte</dt><dd class="contact__social">
+          <a href="https://www.instagram.com/kadernictvi_konecna_zaneta/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/p/Kade%C5%99nictv%C3%AD-%C5%BDaneta-Kone%C4%8Dn%C3%A1-61591746239164/" target="_blank" rel="noopener">Facebook</a>
+        </dd></div>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <svg aria-hidden="true"><use href="#logo"/></svg>
+    <p>© 2026 Kadeřnictví Žaneta Konečná</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
