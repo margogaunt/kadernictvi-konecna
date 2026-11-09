@@ -35,6 +35,7 @@ Jiná písma nepoužívat.
 - **Tlačítko vedlejší:** text s podtržením, hover plocha 10 % krémové.
 - **Kolo:** 8 kulatých pozic, aktivní je 2× větší. Ovládání šipkami, pauzou, kliknutím na fotku, šipkami na klávesnici a tažením.
 - **Prázdná pozice:** linková kresba pramene a popisek „Fotka 01“. Zmizí, jakmile existuje `foto-N.jpg`.
+- **Nápis NÁVRH:** dočasný šikmý nápis přes celou stránku, neblokuje klikání. Po schválení webu smazat (`.draft` v HTML a CSS).
 - **Lišta:** logo vlevo, odkazy uprostřed, bez telefonu. Na mobilu hamburger.
 - Všechny ovládací prvky: hover, focus-visible, active, dotyková plocha aspoň 44 px. Stav disabled se na stránce nevyskytuje.
 

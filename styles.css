@@ -53,6 +53,21 @@ a { color: inherit; }
 }
 .skip:focus { transform: none; }
 
+/* Nápis NÁVRH přes celou stránku */
+.draft {
+  position: fixed; inset: 0; z-index: 25;
+  display: grid; place-items: center;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+}
+.draft span {
+  transform: rotate(-20deg);
+  color: rgba(var(--rose-soft-rgb), .42);
+  font: 500 22vw/1 var(--mono);
+  letter-spacing: .04em;
+}
+
 /* Lišta */
 .bar {
   position: sticky; top: 0; z-index: 20;
